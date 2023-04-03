@@ -1,0 +1,41 @@
+{
+    "name": "whackmongooseschemas",
+    "version": "0.0.1-SNAPSHOT",
+    "description": "WhackDevelopments shared MongooseSchemas",
+    "main": "src/schemas.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prettier": "npx prettier --write .",
+        "format": "npx prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/WhackDevelopment/WhackMongooseSchemas.git"
+    },
+    "keywords": [
+        "whackdevelopment.com",
+        "whackbot.com",
+        "whackdevelopment",
+        "whackbot",
+        "mongoose",
+        "schemas",
+        "database"
+    ],
+    "author": "whackdevelopment.com",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/WhackDevelopment/WhackMongooseSchemas/issues"
+    },
+    "homepage": "https://github.com/WhackDevelopment/WhackMongooseSchemas#readme",
+    "dependencies": {
+        "bcrypt": "^5.1.0",
+        "flakeid": "^1.0.1",
+        "jsonwebtoken": "^9.0.0",
+        "mongoose": "^7.0.3",
+        "mongoose-autopopulate": "^1.0.0",
+        "uuid": "^9.0.0"
+    },
+    "devDependencies": {
+        "prettier": "^2.8.7"
+    }
+}
